@@ -1,3 +1,4 @@
+HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -12,9 +13,6 @@ build/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
 .idea
@@ -34,11 +32,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-**/.jqwik-database
-
-**/http-client.private.env.json
-**/secret.yaml
-**/gradle.properties
-
-/logs/
